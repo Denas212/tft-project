@@ -2,4 +2,55 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+nav img {
+    width: 50px;
+    height: 56px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin: 10px;
+    background-color: lightgray;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    list-style-type: none;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.login-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.nav-container a {
+    color: black;
+    padding: 5px;
+}
+
+.login-container a {
+    color: black;
+    background-color: darkgrey;
+    padding: 5px;
+}
+
+/* --------------------------*/
+
