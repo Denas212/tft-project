@@ -3,10 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    color: #7687ad;
 }
 
 body {
-    background-color: grey;
+    background-color: #070720;
     min-height: 100vh;;
 }
 
@@ -17,7 +18,8 @@ button {
     padding: 10px 20px; 
     font-size: 16px; 
     cursor: pointer; 
-    border-radius: 5px; 
+    border-radius: 5px;
+    color: black;
 }
 
 nav img {
@@ -29,8 +31,7 @@ nav {
     display: flex;
     justify-content: space-between;
     font-weight: bold;
-    margin: 10px;
-    background-color: lightgray;
+    background-color: #191937;
 }
 
 .nav-container {
@@ -57,22 +58,23 @@ nav {
 }
 
 .nav-container a {
-    color: black;
     padding: 5px;
   
 }
 
 .login-container a {
-    color: black;
-    background-color: #c2b465;
     padding: 5px;
+}
+
+.logo-container span {
+    margin-left: 10px;
 }
 
 /* --------------------------*/
 
 .home-container {
     display: flex;
-    margin: 0 90px;
+    margin: 0 300px;
     justify-content: center;
     flex-direction: column;
 }
@@ -80,7 +82,7 @@ nav {
 .home-banner {
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin-top: 20px;
 }
 
 .banner-wrapper {
@@ -91,10 +93,43 @@ nav {
     padding: 10px 20px;
     border-radius: 10px;
     align-items: center;
-    Background-color: lightgray;
+    Background-color: #191937;
 }
 
 .home-banner img {
     width: 100%;
     border-radius: 10px;
+}
+
+.home-summary {
+    display: flex;
+    margin: 40px 0px;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.home-summary-card {
+    display: flex;
+    background: #191937;
+    flex-direction: column;
+    flex: 1;
+    border-radius: 15px;
+    align-items: center;
+    padding: 20px;
+}
+
+.home-summary-card img {
+    height: 120px;
+    width: 120px;
+    margin: 20px 0;
+}
+
+.home-summary-card h1, p {
+    text-align: center;
+    color: #7687ad;
+}
+
+.home-summary-card h1 {
+    margin: 20px 0px;
+    font-size:large;
 }
